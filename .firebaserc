@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "snap-code",
+    "snap-code": "snap-code"
+  }
+}
