@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 100px 10px;
+  background: rgb(242, 232, 232);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.img-left {
+  width: 500px;
+}
+
+.card__left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.p__intro {
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #6273ff;
+}
+
+.btn__grp button > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.primary {
+  background: #6273ff;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 2px 8px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+/* .secondary {
+  background: #25bba2;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 2px 8px;
+  cursor: pointer;
+  border-radius: 25px;
+} */
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background: rgb(242, 232, 232);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .img__left {
+    width: 100px;
+    margin-right: auto;
+  }
+
+  .card__left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+  }
+}
