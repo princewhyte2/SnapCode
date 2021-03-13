@@ -16,7 +16,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: -60px;
 }
 
 .img-left {
@@ -30,10 +30,12 @@ body {
 }
 
 .p__intro {
-  display: none;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background: #6273ff;
+  /* padding: 20px; */
+  /* border: 2px solid black; */
+  max-width: 400px;
 }
 
 .btn__grp button > a {
